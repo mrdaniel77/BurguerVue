@@ -1,0 +1,24 @@
+@import './base.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr auto; /* Primeiro ocupa o restante, depois o footer com altura automática */
+  height: 100%;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
